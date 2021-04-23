@@ -24,7 +24,7 @@ public class CarService {
         if (cars.size() == 0) {
             CarService.setCars();
         }
-        if (carsCount < 5) {
+        if (carsCount <= 5) {
             return cars.stream().limit(carsCount).collect(Collectors.toList());
         }
         return cars;
