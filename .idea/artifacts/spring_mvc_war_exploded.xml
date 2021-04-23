@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="spring-mvc:war exploded">
-    <output-path>$PROJECT_DIR$/2.2.2. spring_mvc/target/Spring_mvc</output-path>
+    <output-path>$PROJECT_DIR$/2.2.2. spring_mvc/target/Spring_MVC</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -30,7 +30,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/2.2.2. spring_mvc/target/Spring_mvc/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/2.2.2. spring_mvc/target/Spring_MVC/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="spring-mvc/web/Web" />
     </root>
